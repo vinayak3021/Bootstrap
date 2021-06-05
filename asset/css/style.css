@@ -1,0 +1,219 @@
+*{
+font-family: 'Merienda', cursive;
+
+}
+
+
+
+html{
+	scroll-behavior:smooth;
+}
+
+
+
+
+
+
+
+
+.ttop{
+	
+	
+	
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	display:flex;
+	font-size:35px;
+	font-weight:bold;
+	color:blue;	
+	position:fixed;
+	bottom:50px;
+	right:150px;
+	z-index:9;
+}
+
+.rtop{
+	
+	
+	
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	display:none;
+	font-size:35px;
+	font-weight:bold;
+	color:blue;	
+	position:fixed;
+	bottom:50px;
+	right:150px;
+	z-index:9;
+}
+
+
+
+@media screen and (max-width:768px) {
+ .footer sapn a{
+  text-align:justify;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+ .rtop{
+   display:flex;
+   right:10px;
+   
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+ .ttop{
+   display:flex;
+   right:10px;
+   
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .ttop{
+     display:flex;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+ .contimg img {
+    height:1000px;
+   
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .contimg img {
+    height:700px;
+  
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+ .regimg img {
+    height:900px;
+   
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .regimg img {
+    height:700px;
+  
+  }
+}
+
+@media screen and (max-width:768px) {
+ .logimg img {
+    height:600px;
+   
+  }
+}
+
+
+@media screen and (min-width:768px) {
+  .logimg img {
+    height:700px;
+  
+  }
+}
+
+/*
+ -webkit-animation: below 1px linear-gradient(transparent, #8A8FF9 );
+       animation: animate 5s linear infinite;
+	   
+	     @keyframes animate {
+    0%,18%,20%,50%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+       color: #0e3742;
+       text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,80.1%,90%,92.1%,100%
+    {
+       color: #fff;
+        text-shadow: 0 0 10px  #8A8FF9,
+        0 0 20px #8A8FF9,
+        0 0 40px #8A8FF9,
+        0 0 80px #8A8FF9,
+        0 0 160px #8A8FF9 ;
+    }
+}
+
+      
+*/
+/*
+<div class=" footer">
+  <mat-toolbar color="primary">
+    <span>footerLine</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</div>
+
+
+.footer{
+  max-width:1200px;
+  padding:0 15px;
+  margin:2rem auto ;
+}
+
+ // .subscribe(
+     //   data =>
+      //  {
+      //      console.log(this.dataObject);
+      //      this.lstData = Object.keys(data.data.regions).map(key => ({value: data.data.regions[key]}));
+     //      console.log(this.lstData);
+     //   }
+    //  );
+*/
+
+
+
+
+
+
+
